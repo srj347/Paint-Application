@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/colorpicker_img_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:backgroundTint="@color/black"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_colorpicker"/>
+
+        <ImageButton
+            android:id="@+id/draw_img_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/black"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_draw1"/>
+
+        <ImageButton
+            android:id="@+id/circle_img_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/black"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_circle"/>
+
+        <ImageButton
+            android:id="@+id/rect_img_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/black"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_rectangle"/>
+
+        <ImageButton
+            android:id="@+id/line_img_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/black"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_line"/>
+
+        <ImageButton
+            android:id="@+id/triangle_img_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/black"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_triangle"/>
+
+    </LinearLayout>
+
+</ScrollView>
